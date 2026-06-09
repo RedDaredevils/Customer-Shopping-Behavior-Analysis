@@ -77,7 +77,7 @@ The dataset contains customer transaction details including:
 
 (Add Dataset Screenshot Here)
 
-![Dataset Preview](images/dataset.png)
+![Dataset Preview](Pics/Dataset preview.png)
 
 
 ---
