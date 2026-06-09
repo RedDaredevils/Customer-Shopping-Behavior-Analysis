@@ -52,6 +52,9 @@ Power BI Dashboard
 Business Insights
 
 
+![Project Workflow](Pics/workflow.png)
+
+
 ---
 
 # 📂 Dataset Information
@@ -75,9 +78,8 @@ The dataset contains customer transaction details including:
 
 ## Dataset Preview
 
-(Add Dataset Screenshot Here)
 
-![Dataset Preview](Pics/Dataset preview.png)
+![Dataset Preview](Pics/Datasetpreview.png)
 
 
 ---
@@ -94,6 +96,9 @@ The following steps were performed:
 ✅ Prepared data for analysis  
 
 
+![Data Cleaning](Pics/DataCleaning.png)
+
+
 ### Feature Engineering
 
 Created additional features:
@@ -103,9 +108,9 @@ Created additional features:
 - Purchase Behaviour Categories
 
 
-(Add Python Code Screenshot Here)
 
-![Data Cleaning](images/data_cleaning.png)
+![Feature Engineering](Pics/EDA.png)
+
 
 ---
 
@@ -134,9 +139,6 @@ EDA was performed to understand:
 - Purchase trends
 
 
-(Add EDA Charts Here)
-
-![EDA Charts](images/eda.png)
 
 ---
 
@@ -153,9 +155,9 @@ Questions explored:
 - Which products depend heavily on discounts?
 
 
-(Add SQL Query Screenshot Here)
 
-![SQL Analysis](images/sql.png)
+![SQL Analysis](Pics/SQL.png)
+
 
 ---
 
@@ -173,9 +175,8 @@ Dashboard Includes:
 - Sales Trends
 
 
-(Add Power BI Dashboard Screenshot Here)
 
-![Power BI Dashboard](images/dashboard.png)
+![Power BI Dashboard](Pics/PowerBI.png)
 
 ---
 
