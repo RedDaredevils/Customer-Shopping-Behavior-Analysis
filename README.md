@@ -1,38 +1,43 @@
-🛒 Customer Shopping Behavior Analysis
-📌 Project Overview
+# 🛒 Customer Shopping Behavior Analysis
 
-This project focuses on analyzing customer shopping behavior using transactional data to identify purchasing patterns, customer preferences, product performance, and revenue trends.
+## 📌 Project Overview
 
-The project follows a complete data analytics workflow using Python, SQL, and Power BI to transform raw data into meaningful business insights.
+This project analyzes customer shopping behavior using transactional data to discover patterns in purchasing habits, customer preferences, product performance, and revenue trends.
 
-🎯 Project Objectives
-Analyze customer purchasing behavior
-Identify customer segments
-Understand sales and revenue trends
-Analyze product performance
-Study discount and subscription impact
-Create an interactive dashboard for business insights
-🛠️ Tools & Technologies Used
+The project follows a complete data analytics workflow using **Python, SQL, and Power BI** to convert raw customer data into meaningful business insights.
 
-Python
+---
 
-Pandas
-NumPy
-Matplotlib
-Seaborn
+## 🎯 Project Objectives
 
-SQL
+- Understand customer purchasing patterns
+- Analyze revenue and sales trends
+- Identify valuable customer segments
+- Study product performance
+- Analyze the impact of discounts and subscriptions
+- Build an interactive dashboard for decision-making
 
-PostgreSQL
+---
 
-Visualization
+## 🛠️ Tools & Technologies
 
-Power BI
+- 🐍 Python
+  - Pandas
+  - NumPy
+  - Matplotlib
+  - Seaborn
 
-Development
+- 🗄️ SQL
+  - PostgreSQL
 
-Jupyter Notebook
-🔄 Project Workflow
+- 📊 Power BI
+
+- 📒 Jupyter Notebook
+
+---
+
+# 🔄 Project Workflow
+
 
 Data Collection
 ↓
@@ -44,138 +49,195 @@ SQL Business Analysis
 ↓
 Power BI Dashboard
 ↓
-Insights & Recommendations
+Business Insights
 
-(Add workflow image here)
 
-📂 Dataset Information
+---
 
-The dataset contains customer shopping records including:
+# 📂 Dataset Information
 
-Customer demographics
-Product details
-Purchase amount
-Product category
-Review ratings
-Discount usage
-Shipping type
-Subscription status
+The dataset contains customer transaction details including:
 
-Dataset Size:
+- Customer demographics
+- Product information
+- Purchase amount
+- Category
+- Review ratings
+- Discount usage
+- Shipping method
+- Subscription status
 
-Rows: 3900
-Columns: 18
+### Dataset Size
 
-(Add dataset screenshot here)
+- Rows: 3900
+- Columns: 18
 
-🧹 Data Cleaning & Preprocessing
 
-The following preprocessing steps were performed:
+## Dataset Preview
 
-Checked dataset structure
-Handled missing values
-Removed inconsistencies
-Standardized column names
-Performed data validation
+(Add Dataset Screenshot Here)
 
-Feature Engineering:
+![Dataset Preview](images/dataset.png)
 
-Created new features:
 
-Age Groups
-Customer Segments
-Purchase Behaviour Categories
+---
 
-(Add Python cleaning screenshots here)
+# 🧹 Data Cleaning & Preprocessing
 
-📊 Exploratory Data Analysis
+The following steps were performed:
 
-Exploratory analysis was performed to understand customer and sales patterns.
+✅ Checked missing values  
+✅ Handled missing data  
+✅ Standardized column names  
+✅ Checked data consistency  
+✅ Created new features  
+✅ Prepared data for analysis  
 
-Customer Analysis
-Customer distribution
-Spending behaviour
-Revenue contribution
-Product Analysis
-Best-selling products
-Top-rated products
-Category performance
-Sales Analysis
-Discount impact
-Shipping preference
-Purchase trends
 
-(Add EDA charts here)
+### Feature Engineering
 
-🗄️ SQL Business Analysis
+Created additional features:
 
-The cleaned dataset was loaded into PostgreSQL for business analysis.
+- Age Groups
+- Customer Segments
+- Purchase Behaviour Categories
 
-Key business questions analyzed:
 
-Which customers generate the highest revenue?
-Which products perform best?
-Does subscription affect spending?
-Which products depend on discounts?
-What are the purchasing patterns?
+(Add Python Code Screenshot Here)
 
-(Add SQL query screenshots here)
+![Data Cleaning](images/data_cleaning.png)
 
-📈 Power BI Dashboard
+---
 
-An interactive dashboard was created to visualize insights.
+# 📊 Exploratory Data Analysis (EDA)
 
-Dashboard includes:
+EDA was performed to understand:
 
-Total Revenue
-Average Purchase Amount
-Customer Segmentation
-Product Performance
-Subscription Analysis
-Sales Trends
+## Customer Analysis
 
-(Add Power BI dashboard screenshot here)
+- Customer distribution
+- Spending behaviour
+- Revenue contribution
 
-💡 Key Insights
 
-Some important findings:
+## Product Analysis
 
-Customer purchasing patterns vary across different segments
-Repeat customers contribute significantly to revenue
-Discounts influence customer decisions
-Subscription customers provide growth opportunities
-Popular products can be prioritized for marketing
-🚀 Business Recommendations
-Introduce loyalty programs for repeat customers
-Create personalized marketing campaigns
-Optimize discount strategies
-Promote highly rated products
-Improve customer retention strategies
-📁 Project Structure
+- Best-selling products
+- Highest-rated products
+- Category performance
 
-Customer-Shopping-Behavior-Analysis
+
+## Sales Analysis
+
+- Discount impact
+- Shipping preferences
+- Purchase trends
+
+
+(Add EDA Charts Here)
+
+![EDA Charts](images/eda.png)
+
+---
+
+# 🗄️ SQL Business Analysis
+
+After cleaning, the data was loaded into PostgreSQL for business analysis.
+
+Questions explored:
+
+- Which gender contributes more revenue?
+- Who are the high-value customers?
+- Which products have the best ratings?
+- Does subscription affect spending?
+- Which products depend heavily on discounts?
+
+
+(Add SQL Query Screenshot Here)
+
+![SQL Analysis](images/sql.png)
+
+---
+
+# 📈 Power BI Dashboard
+
+An interactive dashboard was created to visualize important insights.
+
+Dashboard Includes:
+
+- Total Revenue
+- Average Purchase Amount
+- Customer Segmentation
+- Product Analysis
+- Subscription Analysis
+- Sales Trends
+
+
+(Add Power BI Dashboard Screenshot Here)
+
+![Power BI Dashboard](images/dashboard.png)
+
+---
+
+# 💡 Key Insights
+
+Some major findings:
+
+- Customer segments show different purchasing patterns
+- Repeat customers contribute significantly to revenue
+- Discounts influence buying decisions
+- Subscription customers provide growth opportunities
+- Popular and highly rated products can be prioritized
+
+---
+
+# 🚀 Business Recommendations
+
+Based on the analysis:
+
+- Create loyalty programs for repeat customers
+- Use personalized marketing campaigns
+- Optimize discount strategies
+- Promote high-performing products
+- Improve customer retention strategies
+
+---
+
+# 📁 Project Structure
+
+
+Customer-Shopping-Behavior-Analysis/
 
 │
-├── Dataset
+├── Dataset/
 │ └── customer_data.csv
 │
-├── Python
+├── Python/
 │ └── analysis.ipynb
 │
-├── SQL
+├── SQL/
 │ └── queries.sql
 │
-├── PowerBI
+├── PowerBI/
 │ └── dashboard.pbix
 │
-├── Report
+├── Report/
 │ └── project_report.pdf
+│
+├── Images/
+│ ├── dataset.png
+│ ├── eda.png
+│ ├── sql.png
+│ └── dashboard.png
 │
 └── README.md
 
-👨‍💻 Author
 
-Adeel Umar
+---
 
-Data Analyst
+## 👨‍💻 Author
+
+**Adeel Umar**
+
+Data Analyst  
 Skills: Python | SQL | Power BI | Machine Learning
